@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+*{
+font-family: "Instrument Serif", serif;
+font-weight: 400;
+font-style: italic;
+padding: 0;
+margin:0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom,#010218,#000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:90%;
+    height: 90%;
+    background-image: linear-gradient(to bottom, #02020e77, #00000099),
+   url(mercedes.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.container:hover{
+    background-image: linear-gradient(to bottom, transparent, #00000099),
+   url(mercedes.jpg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    color:rgb(213, 222, 236);
+    text-decoration: none;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px #09002f;
+}
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+ul a:hover{
+    border-bottom: 2px solid rgb(1, 6, 11);
+}
+.content{
+    width:50%;
+    padding: 30px;
+}
+.content h1{
+    font-size: 40px;
+    color:aliceblue;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 300px;
+    color:aliceblue;
+    padding:20px 0px;
+}
+.content button{
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
